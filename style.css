@@ -45,7 +45,7 @@ header {
 
 .calendar-widget {
   position: fixed;     
-  bottom: 50px;
+  bottom: 80px;
   right: 20px;
   width: 320px;
   height: 400px;
