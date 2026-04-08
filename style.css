@@ -9,6 +9,30 @@ body{
   background-image: url('bg.jpg');
 }
 
+#news{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  border-radius: 5px;
+  font-size: 50px;
+  position: fixed;
+  right: 130px;
+  top: 300px;
+  text-decoration: none;
+}
+
+#docs{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  border-radius: 5px;
+  font-size: 50px;
+  position: fixed;
+  right: 100px;
+  top: 400px;
+  text-decoration: none;
+}
+
 #clock {
   font-size: 30px;
   color: lime;
