@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-636PHD92DT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-636PHD92DT');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
@@ -9,14 +18,16 @@
     <title>My Website</title>
 </head>
 <body>
+  <div id="p5js"></div>
+  <script src="sketch.js"></script>
 <script src="https://app.embed.im/snow.js" defer></script>
 <script src="https://app.embed.im/sparkles.js" defer></script>
+<a id="news" href="https://www.cbc.ca/news" target="_blank">NEWS</a>
+<a id="docs" href="https://docs.google.com/document/d/1djK7f4LaQR0pVo11mq3ndV_JOaW9s-fiD0WzXyYJe2s/edit?usp=sharing" target="_blank">RESUME</a>
 <a class="weatherwidget-io" href="https://forecast7.com/en/43d65n79d38/toronto/" data-label_1="TORONTO" data-label_2="WEATHER" data-theme="original" >TORONTO WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
-<div id="p5js"></div>
-<script src="sketch.js"></script>
 <div id="clock">
 <script>
 setInterval(() => {
